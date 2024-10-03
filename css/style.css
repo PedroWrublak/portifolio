@@ -7,6 +7,41 @@
     padding: 0px;
 }
 
+body {
+    background-color: rgb(19, 19, 19);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+main > section.apresentacao {
+    background-color: rgb(14, 17, 17);
+    height: 100vh;
+}
+
+main > section > h1,h2,p {
+    color: white;
+    margin-left: 30px;
+}
+
+main > section > p {
+    margin-top: 20px;
+}
+
+main > section.projetos {
+    background-color: rgb(79, 130, 172);
+    ;
+    height: 100vh;
+}
+
+main > section.projetos > h2 {
+    color: black;
+}
+
 header{
     margin: 10px;
     display: flex;
