@@ -74,18 +74,33 @@ main> section.apresentacao > h1, h2 {
     font-family: "Play", sans-serif;
 }
 
+main > section > h2 {
+    color: rgba(255, 255, 255, 0.575);
+    font-style: italic;
+}
+
 main > section > p {
     font-family: "Play", sans-serif;
     font-size: 1.5em;
-    margin-top: 20px;
+    margin-top: 100px;
+    max-width: 400px;
 }
 
 main > section.projetos {
     background-color: var(--primary-color-darker);
     height: 100vh;
+    text-align: center;
 }
 
 main > section.projetos > h2 {
+    font-family: "Play", sans-serif;
+    margin-top: 60px;
     color: black;
 }
+
+.light {
+    position: absolute;
+    box-shadow: 10px 10px 1000px 100px rgba(17, 125, 158, 0.37);
+}
+
 
