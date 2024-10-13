@@ -103,6 +103,7 @@ main > section.projetos > h2 {
 
 main > section.projetos > div.projetoImc {
     color: var(--primary-color-darker);
+    font-size: 1.1em;
     margin-top: 70px;
     max-width: 300px;
 }
@@ -116,12 +117,19 @@ section.projetos > div.projetoImc > p {
     text-align: justify;
 }
 
-
 section.projetos > div.projetoImc > img {
     max-width: 300px;
     margin-top: 20px;
     border: 2px solid white;
     border-radius: 5px;
+}
+
+section.projetos > div.projetoImc > a {
+    color: whitesmoke;
+}
+
+section.projetos > div.projetoImc > a:hover {
+    color: var(--primary-color-darker);
 }
 
 .light {
