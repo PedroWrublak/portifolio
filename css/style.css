@@ -98,17 +98,21 @@ main > section.projetos > h2 {
     font-family: "Play", sans-serif;
     margin-top: 60px;
     color: rgba(255, 255, 255, 0.575)
-    
 }
 
 main > section.projetos > div.projetoImc {
-    color: var(--primary-color-darker);
+    background-color: #1f63b783;
+    color: white;
+    padding: 15px;
+    border: 4px solid var(--primary-color-darker);
+    border-radius: 10px;
     font-size: 1.1em;
     margin-top: 70px;
     max-width: 300px;
 }
 
 section.projetos > div.projetoImc > h3 {
+    color: aqua;
     font-family: "Play", sans-serif;
     margin-bottom: 15px;
 }
