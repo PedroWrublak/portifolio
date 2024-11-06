@@ -99,6 +99,7 @@ main > section.projetos {
 main > section.projetos > div.container {
     display: flex;
     justify-content: space-between;
+    width: 40%;
 }
 
 main > section.projetos > h2 {
