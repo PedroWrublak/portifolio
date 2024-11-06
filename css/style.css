@@ -89,18 +89,26 @@ main > section > p {
 }
 
 main > section.projetos {
+    display: flex;
+    flex-direction: column;
     background-color: rgb(11, 12, 12);
     height: 100vh;
-    padding-left: 15%;
+    padding-left: 15%;  
+}
+
+main > section.projetos > div.container {
+    display: flex;
+    justify-content: space-between;
 }
 
 main > section.projetos > h2 {
     font-family: "Play", sans-serif;
     margin-top: 60px;
-    color: rgba(255, 255, 255, 0.575)
+    color: rgba(255, 255, 255, 0.575);
+    
 }
 
-main > section.projetos > div.projetoImc {
+main > section.projetos div.container > div.projetoImc, div.projetoTimer {
     background-color: #1f63b783;
     color: white;
     padding: 15px;
@@ -111,28 +119,28 @@ main > section.projetos > div.projetoImc {
     max-width: 300px;
 }
 
-section.projetos > div.projetoImc > h3 {
+section.projetos > div.container > div.projetoImc > h3, div.projetoTimer > h3 {
     color: aqua;
     font-family: "Play", sans-serif;
     margin-bottom: 15px;
 }
 
-section.projetos > div.projetoImc > p {
+section.projetos > div.projetoImc > p, div.projetoTimer > p {
     text-align: justify;
 }
 
-section.projetos > div.projetoImc > img {
+section.projetos > div.container > div.projetoImc> img, div.projetoTimer > img {
     max-width: 300px;
     margin-top: 20px;
     border: 2px solid white;
     border-radius: 5px;
 }
 
-section.projetos > div.projetoImc > a {
+section.projetos > div.container > div.projetoImc > a, div.projetoTimer > a {
     color: whitesmoke;
 }
 
-section.projetos > div.projetoImc > a:hover {
+section.projetos > div.container > div.projetoImc > a:hover, div.projetoTimer > a:hover {
     color: var(--primary-color-darker);
 }
 
