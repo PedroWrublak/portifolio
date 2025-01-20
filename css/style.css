@@ -110,7 +110,7 @@ main > section.projetos > h2 {
     
 }
 
-main > section.projetos div.container > div.projetoImc, div.projetoTimer {
+main > section.projetos div.container > div.projetoImc, div.projetoTimer, div.projetoLogin {
     background-color: #1f63b783;
     color: white;
     padding: 15px;
@@ -121,28 +121,28 @@ main > section.projetos div.container > div.projetoImc, div.projetoTimer {
     max-width: 300px;
 }
 
-section.projetos > div.container > div.projetoImc > h3, div.projetoTimer > h3 {
+section.projetos > div.container > div.projetoImc > h3, div.projetoTimer > h3, div.projetoLogin > h3 {
     color: aqua;
     font-family: "Play", sans-serif;
     margin-bottom: 15px;
 }
 
-section.projetos > div.projetoImc > p, div.projetoTimer > p {
+section.projetos > div.projetoImc > p, div.projetoTimer > p, div.projetoLogin > p {
     text-align: justify;
 }
 
-section.projetos > div.container > div.projetoImc> img, div.projetoTimer > img {
+section.projetos > div.container > div.projetoImc> img, div.projetoTimer > img, div.projetoLogin > img {
     max-width: 300px;
     margin-top: 20px;
     border: 2px solid white;
     border-radius: 5px;
 }
 
-section.projetos > div.container > div.projetoImc > a, div.projetoTimer > a {
+section.projetos > div.container > div.projetoImc > a, div.projetoTimer > a, div.projetoLogin > a {
     color: whitesmoke;
 }
 
-section.projetos > div.container > div.projetoImc > a:hover, div.projetoTimer > a:hover {
+section.projetos > div.container > div.projetoImc > a:hover, div.projetoTimer > a:hover, div.projetoLogin > a:hover {
     color: var(--primary-color-darker);
 }
 
