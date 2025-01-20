@@ -92,7 +92,7 @@ main > section.projetos {
     flex-direction: column;
     background-color: rgb(11, 12, 12);
     height: 100vh;
-    padding-left: 15%;  
+    padding-left: 15%; 
 }
 
 main > section.projetos > div.container {
@@ -118,6 +118,9 @@ main > section.projetos div.container > div.projetoImc, div.projetoTimer, div.pr
     font-size: 1.1em;
     margin-top: 70px;
     max-width: 300px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
 }
 
 section.projetos > div.container > div.projetoImc > h3, div.projetoTimer > h3, div.projetoLogin > h3 {
@@ -138,7 +141,8 @@ section.projetos > div.container > div.projetoImc> img, div.projetoTimer > img, 
 }
 
 section.projetos > div.container > div.projetoImc > a, div.projetoTimer > a, div.projetoLogin > a {
-    color: whitesmoke;
+    color: rgb(157, 247, 242);
+    
 }
 
 section.projetos > div.container > div.projetoImc > a:hover, div.projetoTimer > a:hover, div.projetoLogin > a:hover {
