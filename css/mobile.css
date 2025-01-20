@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+main > section.projetos > div.container {
+    display: flex;
+    flex-flow: column wrap;
+}  
